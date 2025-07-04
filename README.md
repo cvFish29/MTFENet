@@ -1,11 +1,10 @@
 <div align="left">   
 
 
-## You Only Look at Once for Real-time and Generic Multi-Task
-This repository(Yolov8 multi-task) is the official PyTorch implementation of the paper "You Only Look at Once for Real-time and Generic Multi-Task".  
+## MTFENet: A Multi-Task Autonomous Driving Network for Real-Time Target Perception
+This repository(MTFENet) is the official PyTorch implementation of the paper "MTFENet: A Multi-Task Autonomous Driving Network for Real-Time Target Perception".  
 
-> [**You Only Look at Once for Real-time and Generic Multi-Task**](https://arxiv.org/pdf/2310.01641.pdf)
->
+
 > by Jiayuan Wang, [Q. M. Jonathan Wu](https://scholar.google.com/citations?user=BJSAsE8AAAAJ&hl=zh-CN)<sup> :email:</sup> and [Ning Zhang](https://scholar.google.ca/citations?hl=zh-CN&user=ZcYihtoAAAAJ)
 >
 >  (<sup>:email:</sup>) corresponding author.
@@ -16,9 +15,9 @@ This repository(Yolov8 multi-task) is the official PyTorch implementation of the
 ### Update:
 Nov.5: We revised the structure of the segmentation neck. We will update the manuscript soon. Please use this repository model structure to learn, this matches with the code. 
 
-### The Illustration of A-YOLOM
+### The Illustration of MTFENet
 
-![YOLOv8-multi-task](pictures/constructure.jpg)
+![MTFENet](pictures/constructure.jpg)
 
 ### Contributions
 

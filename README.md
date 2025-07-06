@@ -5,15 +5,9 @@
 This repository(MTFENet) is the official PyTorch implementation of the paper "MTFENet: A Multi-Task Autonomous Driving Network for Real-Time Target Perception".  
 
 
-> by Jiayuan Wang, [Q. M. Jonathan Wu](https://scholar.google.com/citations?user=BJSAsE8AAAAJ&hl=zh-CN)<sup> :email:</sup> and [Ning Zhang](https://scholar.google.ca/citations?hl=zh-CN&user=ZcYihtoAAAAJ)
->
->  (<sup>:email:</sup>) corresponding author.
->
-> *arXiv technical report ([arXiv 2310.01641](https://arxiv.org/pdf/2310.01641.pdf))*
-
 ---
 ### Update:
-Nov.5: We revised the structure of the segmentation neck. We will update the manuscript soon. Please use this repository model structure to learn, this matches with the code. 
+`2025-7-4`: We've uploaded the experiment results along with some code, and the full code will be released soon
 
 ### The Illustration of MTFENet
 

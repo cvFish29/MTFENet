@@ -22,15 +22,16 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 ### Results
 
-#### Parameters and speed
-| Model          | Parameters  | FPS (bs=1) | FPS (bs=32) |
+#### Evaluation of Model Size and Inference Speed.
+| Networks          | Size (Pixel)  | Parameters (M) | FPS(bs=32) |
 |----------------|-------------|------------|-------------|
-| YOLOP          | 7.9M        | 26.0       | 134.8       |
-| HybridNet      | 12.83M      | 11.7       | 26.9        |
-| YOLOv8n(det)   | 3.16M       | 102        | 802.9       |
-| YOLOv8n(seg)   | 3.26M       | 82.55      | 610.49      |
-| A-YOLOM(n)     | 4.43M       | 39.9       | 172.2       |
-| A-YOLOM(s)     | 13.61M      | 39.7       | 96.2        |
+| YOLOP          | 640        | 7.90      | 361.27       |
+| YOLOPv2      | 640      | 38.90       |419.57        |
+| YOLOPv3   | 640       | 30.2       | 389.58      |
+| HybridNets   | 640       | 12.83      | 243.30      |
+| A-YOLOM     | 640      | 13.61       | 346.53       |
+| TriLiteNet    | 640      | **2.35 **     |423.50       |
+|MTFENet      |640        |8.70        |**441.53 **      |
 
 
 #### Traffic Object Detection Result

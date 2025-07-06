@@ -30,8 +30,8 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | YOLOPv3   | 640       | 30.2       | 389.58      |
 | HybridNets   | 640       | 12.83      | 243.30      |
 | A-YOLOM     | 640      | 13.61       | 346.53       |
-| TriLiteNet    | 640      | **2.35 **     |423.50       |
-|MTFENet      |640        |8.70        |**441.53 **      |
+| TriLiteNet    | 640      | 2.35      |423.50       |
+|MTFENet      |640        |8.70        |441.53      |
 
 
 #### Traffic Object Detection Result

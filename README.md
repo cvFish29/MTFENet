@@ -52,36 +52,35 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
   <div style="text-align:center;">
   <thead>
     <tr>
-      <th rowspan="2">Networks</th>
-      <th colspan="2">Traffic Object Detection Achievement</th>
-      <th colspan="1">Drivable Area Segmentation Achievement</th>
-      <th colspan="2">Laneline Segment Achievement</th>
+      <th rowspan="2" style="text-align:center;">Networks</th>
+      <th colspan="2" style="text-align:center;">Traffic Object Detection Achievement</th>
+      <th colspan="1" style="text-align:center;">Drivable Area Segmentation Achievement</th>
+      <th colspan="2" style="text-align:center;">Laneline Segment Achievement</th>
     </tr>
     <tr>
-      <th>mAP50 (%)</th>
-      <th>Recall (%)</th>
-      <th>mIoU % (%)</th>
-      <th>Acc (%)</th>
-      <th>IoU (%)</th>
+      <th style="text-align:center;">mAP50 (%)</th>
+      <th style="text-align:center;">Recall (%)</th>
+      <th style="text-align:center;">mIoU % (%)</th>
+      <th style="text-align:center;">Acc (%)</th>
+      <th style="text-align:center;">IoU (%)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Faster R-CNN</td><td>81.20</td><td>64.90</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>YOLOV5s</td><td>77.20</td><td>86.80</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td>MultiNet</td><td>81.30</td><td>60.20</td><td>71.60</td><td>-</td><td>-</td></tr>
-    <tr><td>DLT-Net</td><td><b>89.40</b></td><td>68.40</td><td>72.10</td><td>-</td><td>-</td></tr>
-    <tr><td>PSPNet</td><td>-</td><td>-</td><td>89.60</td><td>-</td><td>-</td></tr>
-    <tr><td>ENet</td><td>-</td><td>-</td><td>-</td><td>34.12</td><td>14.64</td></tr>
-    <tr><td>SCNN</td><td>-</td><td>-</td><td>-</td><td>35.79</td><td>15.84</td></tr>
-    <tr><td>ENet-SAD</td><td>-</td><td>-</td><td>-</td><td>36.56</td><td>16.02</td></tr>
-    <tr><td>YOLOP</td><td>76.50</td><td>88.20</td><td>90.50</td><td>84.40</td><td>26.50</td></tr>
-    <tr><td>HybridNets</td><td>77.30</td><td>89.70</td><td>91.50</td><td>85.40</td><td>31.60</td></tr>
-    <tr><td>YOLOPv2</td><td>83.40</td><td>91.10</td><td>93.20</td><td>87.31</td><td>27.25</td></tr>
-    <tr><td>A-YOLOM</td><td>81.10</td><td>86.90</td><td>91.00</td><td>84.90</td><td>28.80</td></tr>
-    <tr><td>YOLOPv3</td><td>84.30</td><td><b>96.90</b></td><td>93.20</td><td><b>88.30</b></td><td>28.00</td></tr>
-    <tr><td>TriLiteNet</td><td>72.30</td><td>85.60</td><td>92.40</td><td>82.30</td><td>29.80</td></tr>
-    <tr><td><b>MTFENet</b></td><td>81.50</td><td>88.40</td><td><b>93.80</b></td><td>87.60</td><td><b>33.70</b></td></tr>
-
+ <tr><td style="text-align:center;">Faster R-CNN</td><td>81.20</td><td>64.90</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td style="text-align:center;">YOLOV5s</td><td>77.20</td><td>86.80</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td style="text-align:center;">MultiNet</td><td>81.30</td><td>60.20</td><td>71.60</td><td>-</td><td>-</td></tr>
+    <tr><td style="text-align:center;">DLT-Net</td><td><b>89.40</b></td><td>68.40</td><td>72.10</td><td>-</td><td>-</td></tr>
+    <tr><td style="text-align:center;">PSPNet</td><td>-</td><td>-</td><td>89.60</td><td>-</td><td>-</td></tr>
+    <tr><td style="text-align:center;">ENet</td><td>-</td><td>-</td><td>-</td><td>34.12</td><td>14.64</td></tr>
+    <tr><td style="text-align:center;">SCNN</td><td>-</td><td>-</td><td>-</td><td>35.79</td><td>15.84</td></tr>
+    <tr><td style="text-align:center;">ENet-SAD</td><td>-</td><td>-</td><td>-</td><td>36.56</td><td>16.02</td></tr>
+    <tr><td style="text-align:center;">YOLOP</td><td>76.50</td><td>88.20</td><td>90.50</td><td>84.40</td><td>26.50</td></tr>
+    <tr><td style="text-align:center;">HybridNets</td><td>77.30</td><td>89.70</td><td>91.50</td><td>85.40</td><td>31.60</td></tr>
+    <tr><td style="text-align:center;">YOLOPv2</td><td>83.40</td><td>91.10</td><td>93.20</td><td>87.31</td><td>27.25</td></tr>
+    <tr><td style="text-align:center;">A-YOLOM</td><td>81.10</td><td>86.90</td><td>91.00</td><td>84.90</td><td>28.80</td></tr>
+    <tr><td style="text-align:center;">YOLOPv3</td><td>84.30</td><td><b>96.90</b></td><td>93.20</td><td><b>88.30</b></td><td>28.00</td></tr>
+    <tr><td style="text-align:center;">TriLiteNet</td><td>72.30</td><td>85.60</td><td>92.40</td><td>82.30</td><td>29.80</td></tr>
+    <tr><td style="text-align:center;"><b>MTFENet</b></td><td>81.50</td><td>88.40</td><td><b>93.80</b></td><td>87.60</td><td><b>33.70</b></td></tr>
   </tbody>
   </div>
 </table>

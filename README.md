@@ -10,7 +10,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 ### The Illustration of MTFENet
 
-![MTFENet](pictures/MTFENet.png)
+<img src="pictures/MTFENet.png" alt="MTFENet" width="500" height="300"/>
 
 
 ### Results

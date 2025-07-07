@@ -116,9 +116,9 @@ pip install -e .
 ```
 ### Dataset
 - Download the images from [images](https://bdd-data.berkeley.edu/). 
-- Download the annotations of detection from [detection-object](https://uwin365-my.sharepoint.com/:u:/g/personal/wang621_uwindsor_ca/EflGScMT-D1MqBTTYUSMdaEBT1wWm5uB8BausmS7fDLsQQ?e=cb7age). 
-- Download the annotations of drivable area segmentation from [seg-drivable-10](https://uwin365-my.sharepoint.com/:u:/g/personal/wang621_uwindsor_ca/EWyIyXDFCzRLhERniUiuyIABq257WF4DbNJBDB8Dmok91w?e=hgWtoZ). 
-- Download the annotations of lane line segmentation from [seg-lane-11](https://uwin365-my.sharepoint.com/:u:/g/personal/wang621_uwindsor_ca/EUBQBO2KGFtHsexik3WvLZMBuaW1CsnHDTZo5eJ3ESdJNA?e=K6Tsem). 
+- Download the annotations of detection from [detection-object-9]((https://drive.google.com/file/d/1y5ypEDOtDICBrc2WLX0xMUGRlNamXLms/view?usp=sharing)). 
+- Download the annotations of drivable area segmentation from [seg-drivable-10](https://drive.google.com/file/d/1D4BCWfmuslXDlJIULyJ8yeGGKw3zphfd/view?usp=sharing). 
+- Download the annotations of lane line segmentation from [seg-lane-11]((https://drive.google.com/file/d/1h9M6gWlKbd9QQ0KEuVdoTTo8G9LKmyGS/view?usp=sharing)). 
 
 We recommend the dataset directory structure to be the following:
 
@@ -128,7 +128,7 @@ We recommend the dataset directory structure to be the following:
 │ ├─images
 │ │ ├─train2017
 │ │ ├─val2017
-│ ├─detection-object
+│ ├─detection-object-9
 │ │ ├─labels
 │ │ │ ├─train2017
 │ │ │ ├─val2017

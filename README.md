@@ -29,7 +29,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 
 |              |Traffic object detectionachievement||Drivable area segmentationachievement ||Laneline Segmentachievement     |
-|--------------|-----------------------------|-----------------------------|----------------|
+|--------------|-----------------------------||-----------------------------||----------------|
 | Networks     |	mAP50 (%)   |	Recall (%)   |	mIoU (%)    |	Acc (%)      | IoU (%)        |
 |--------------|--------------|--------------|--------------|--------------|----------------|
 | Faster R-CNN | 81.20	      | 64.90	       | -            | -            | -              |

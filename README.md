@@ -7,7 +7,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 ---
 ### The Illustration of MTFENet
 
-<img src="pictures/MTFENet.png" alt="MTFENet" width="500" height="300"/>
+<img src="pictures/MTFENet.png" alt="MTFENet" width="600" height="400"/>
 
 ---
 
@@ -75,7 +75,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
   <tr>
     <td>
       <strong>Real Road</strong><br/>
-      <img src="./pictures/road.jpg" alt="Visual Comparison of Results on Sunny Day" width="400" height="300"/>
+      <img src="./pictures/road.jpg" alt="Visual Comparison of Results on Sunny Day" width="400" height="400"/>
     </td>
   </tr>
 </table>
@@ -84,21 +84,21 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
   <tr>
     <td>
       <strong>Visual Comparison of Results on Sunny Day</strong>
-      <img src="./pictures/baitian.png" alt="Visual Comparison of Results on Sunny Day" width="400" height="300"/><br/>
+      <img src="./pictures/baitian.png" alt="Visual Comparison of Results on Sunny Day" width="400" height="400"/><br/>
     </td>
     <td>
       <strong>Visual Comparison of Results at Night</strong>
-      <img src="./pictures/yewan.png" alt="Visual Comparison of Results at Night" width="400" height="300"/><br/>
+      <img src="./pictures/yewan.png" alt="Visual Comparison of Results at Night" width="400" height="400"/><br/>
     </td>
   </tr>
   <tr>
     <td>
       <strong>Visual Comparison of Results on Rainy Day</strong>
-      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="400" height="300"/><br/>
+      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="400" height="400"/><br/>
     </td>
     <td>
       <strong>Visual Comparison of Results on Snow Day</strong>
-      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="400" height="300"/><br/>
+      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="400" height="400"/><br/>
     </td>
   </tr>
 </table>
@@ -108,7 +108,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 ### Requirement
 We implemented the algorithm in a Linux environment and conducted all experiments on an NVIDIA RTX 4090 GPU equipped with 24GB of memory.
-The development environment was based on Python==3.8.19(https://www.python.org/) ,PyTorch 1.13.1(https://pytorch.org/get-started/locally/), conda 24.1.2, and CUDA11.7, with pre-training conducted on the BDD100K dataset. 
+The development environment was based on [Python==3.8.19](https://www.python.org/) ,[PyTorch 1.13.1](https://pytorch.org/get-started/locally/), conda 24.1.2, and CUDA11.7, with pre-training conducted on the BDD100K dataset. 
 
 ```setup
 cd MTFENet

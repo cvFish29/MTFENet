@@ -73,13 +73,15 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 #### Real Road
 
 <img src="pictures/road.jpg" alt="Real Road" width="500" height="300"/>
-
+<table style="width:100%; text-align:center;">
   <tr>
     <td>
-      <strong>Real Road</strong>
-      <img src="./pictures/road.jpg" alt="Visual Comparison of Results on Sunny Day" width="300" height="200"/><br/>
+      <strong>Real Road</strong><br/>
+      <img src="./pictures/road.jpg" alt="Visual Comparison of Results on Sunny Day" width="300" height="200"/>
     </td>
-  <tr>
+  </tr>
+</table>
+
 <table style="width:100%; text-align:center;">
   <tr>
     <td>

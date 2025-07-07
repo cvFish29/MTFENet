@@ -54,7 +54,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
     <tr>
       <th rowspan="2">Networks</th>
       <th colspan="2">Traffic Object Detection Achievement</th>
-      <th rowspan="2">Drivable Area Segmentation Achievement</th>
+      <th colspan="2">Drivable Area Segmentation Achievement</th>
       <th colspan="2">Laneline Segment Achievement</th>
     </tr>
     <tr>

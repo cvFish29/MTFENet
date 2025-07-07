@@ -94,10 +94,10 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 <img src="./pictures/yewan.png" alt="Night" width="500" height="300"/>
 
 #### Visual Comparison of Results on a Rainy Day
-<img src="./pictures/yutian.png" alt="Rainy Day" width="500" height="300"/>
+<img src="./pictures/yutian .png" alt="Rainy Day" width="500" height="300"/>
 
 #### Visual Comparison of Results on a Snow Day
-<img src="./pictures/xuetian.png" alt="Snow Day" width="500" height="300"/>
+<img src="./pictures/xuetian .png" alt="Snow Day" width="500" height="300"/>
 
 
 ### Requirement

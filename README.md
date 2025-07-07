@@ -24,7 +24,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 #### Evaluation of Model Size and Inference Speed.
 | Networks       | Size (Pixel)| Parameters (M) | FPS(bs=32)  |
-|----------------|-------------|----------------|--------=----|
+|----------------|-------------|----------------|-------------|
 | YOLOP          | 640         | 7.90           | 361.27      |
 | YOLOPv2        | 640         | 38.90          | 419.57      |
 | YOLOPv3        | 640         | 30.2           | 389.58      |

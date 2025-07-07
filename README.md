@@ -49,7 +49,6 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | MTFENet      | 81.50        |	88.40        | **93.80**    |	87.60        | **33.70**      |
 
 <table style="width:100%; text-align:center; border-collapse:collapse;">
-  <div style="text-align:center;">
   <thead>
     <tr>
       <th rowspan="2" style="text-align:center;">Networks</th>
@@ -82,7 +81,6 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
     <tr><td style="text-align:center;">TriLiteNet</td><td>72.30</td><td>85.60</td><td>92.40</td><td>82.30</td><td>29.80</td></tr>
     <tr><td style="text-align:center;"><b>MTFENet</b></td><td>81.50</td><td>88.40</td><td><b>93.80</b></td><td>87.60</td><td><b>33.70</b></td></tr>
   </tbody>
-  </div>
 </table>
 
 

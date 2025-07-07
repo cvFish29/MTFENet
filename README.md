@@ -27,52 +27,24 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | MTFENet        | 640         | 8.70           | **441.53**  |
 
 
-#### Traffic Object Detection Result
+| Networks     |	mAP50 (%)    |	Recall (%)   |	mIoU (%)     |	Acc (%)      |	IoU (%)      |
+|--------------|--------------|--------------|--------------|--------------|--------------|
+| Faster R-CNN | 81.20	       | 64.90	       | -            | -            |	-            |
+| YOLOV5s      |	77.20        |	86.80        |	-            |	-            |	-            |
+| MultiNet     |	81.30        |	60.20        |	71.60        |	-	           | -            |
+| DLT-Net      |	**89.40**    |	68.40        |	72.10        |	-            |	-            |
+| PSPNet       |	-            |	-            |	89.60        |	-            |	-            |
+| ENet         |	-            |	-            |	-            |	34.12        |	14.64        |
+| SCNN         |	-            |	-            |	-            |	35.79        |	15.84        |
+| ENet-SAD     |	-            | -            |	-            |	36.56        |	16.02        |
+| YOLOP       	| 76.50        |	88.20        |	90.50        |	84.40        |	26.50        |
+| HybridNets   |	77.30        |	89.70        |	91.50        |	85.40        |	31.60        |
+| YOLOPv2      | 83.40        |	91.10        |	93.20        |	87.31        |	27.25        |
+| A-YOLOM      |	81.10        |	86.90        |	91.00        |	84.90        |	28.80        |
+| YOLOPv3      |	84.30        |	**96.90**    |	93.20        |	**88.30**    |	28.00        |
+| TriLiteNet   |	72.30        |	85.60        |	92.40        |	82.30        |	29.80        |
+| MTFENet      |	81.50        |	88.40        |	**93.80**    |	87.60        |	**33.70**    |
 
-| Model       | Recall (%) | mAP50 (%)  |
-|-------------|------------|------------|
-| Faster R-CNN| 81.20      | 64.90      |
-| YOLOV5s     | 77.20      | 86.80      |
-| MultiNet    | 81.30      | 60.20      |
-| DLT-Net     | **89.40**  | 68.40      |
-| YOLOP       | 76.50      | 88.20      |
-| HybridNets  | 77.30      | 89.70      |
-| YOLOPv2     | 83.40      | 91.10      |
-| A-YOLOM     | 81.10      | 86.90      |
-| YOLOPv3     | 84.30      | **96.90**  |
-| TriLiteNet  | 72.30      | 85.60      |
-| MTFENet     | 81.50      | 88.40      |
-
-#### Drivable Area Segmentation Result
-
-| Model          | mIoU (%) |
-|----------------|----------|
-| MultiNet       | 71.6     |
-| DLT-Net        | 72.1     |
-| PSPNet         | 89.6     |
-| YOLOP          | 78.1     |
-| YOLOP          | 91.6     |
-| YOLOPv2        | 90.5     |
-| A-YOLOM        | 91.0     |
-| YOLOPv3        | 93.20    |
-| TriLiteNet     | 92.40    |
-| MTFENet        | **93.80**| 
-
-
-#### Lane Detection Result:
-
-| Model          | Accuracy (%) | IoU (%) |
-|----------------|--------------|---------|
-| Enet           | 34.12        | 14.64   |
-| SCNN           | 35.79        | 15.84   |
-| ENet-SAD       | 36.56        | 16.02   |
-| YOLOP          | 84.40        | 26.50   |
-| HybridNets     | 85.40        | 31.60   |
-| A-YOLOM(s)     | 84.90        | 28.80   |
-| YOLOPv3        | **88.30**    | 28.00   |
-| TriLiteNet     | 82.30        | 29.80   |
-| MTFENet        | 87.60        | 33.70   |
- 
 ---
 ### Visualization
 

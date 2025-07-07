@@ -49,22 +49,23 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | MTFENet      | 81.50        |	88.40        | **93.80**    |	87.60        | **33.70**      |
 
 <table style="width:100%; text-align:center; border-collapse:collapse;">
+  <div style="text-align:center;">
   <thead>
     <tr>
       <th rowspan="2">Networks</th>
       <th colspan="2">Traffic Object Detection Achievement</th>
-      <th rowspan="2">Drivable Area Segmentation Achievement<br>(mIoU %)</th>
+      <th rowspan="2">Drivable Area Segmentation Achievement</th>
       <th colspan="2">Laneline Segment Achievement</th>
     </tr>
     <tr>
       <th>mAP50 (%)</th>
       <th>Recall (%)</th>
+      <th>mIoU % (%)</th>
       <th>Acc (%)</th>
       <th>IoU (%)</th>
     </tr>
   </thead>
   <tbody>
-  <div style="text-align:center;">
     <tr><td>Faster R-CNN</td><td>81.20</td><td>64.90</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>YOLOV5s</td><td>77.20</td><td>86.80</td><td>-</td><td>-</td><td>-</td></tr>
     <tr><td>MultiNet</td><td>81.30</td><td>60.20</td><td>71.60</td><td>-</td><td>-</td></tr>
@@ -80,8 +81,9 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
     <tr><td>YOLOPv3</td><td>84.30</td><td><b>96.90</b></td><td>93.20</td><td><b>88.30</b></td><td>28.00</td></tr>
     <tr><td>TriLiteNet</td><td>72.30</td><td>85.60</td><td>92.40</td><td>82.30</td><td>29.80</td></tr>
     <tr><td><b>MTFENet</b></td><td>81.50</td><td>88.40</td><td><b>93.80</b></td><td>87.60</td><td><b>33.70</b></td></tr>
-  </div>
+
   </tbody>
+  </div>
 </table>
 
 

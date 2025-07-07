@@ -28,7 +28,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 
 #### omparison Between Our Method and the Current SOTA on the BDD100K Validation Set.
-<table style="width:60%; border-collapse:collapse; margin:auto;">
+<table style="width:60%; table-layout:fixed; margin:auto; border-collapse:collapse;">
   <thead>
     <tr>
       <th rowspan="2" style="text-align:center;">Networks</th>

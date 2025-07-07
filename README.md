@@ -26,7 +26,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | TriLiteNet     | 640         | **2.35**       | 423.50      |
 | MTFENet        | 640         | 8.70           | **441.53**  |
 
-|--------------|-----------------------------|-----------------------------|----------------|
+
 |              |Traffic object detection     |Drivable area segmentation   |Laneline Segment|
 |              |achievement                  |achievement                  |achievement     |
 |--------------|-----------------------------|-----------------------------|----------------|

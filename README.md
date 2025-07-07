@@ -77,19 +77,19 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 <div style="text-align:center;">
   <div style="display:inline-block; margin:10px;">
-    <img src="./pictures/baitian.png" alt="Sunny Day" width="300" height="200"/><br/>
+    <img src="./pictures/baitian.png" alt="Sunny Day" width="200" height="200"/><br/>
     <span>Sunny Day</span>
   </div>
   <div style="display:inline-block; margin:10px;">
-    <img src="./pictures/yewan.png" alt="Night" width="300" height="200"/><br/>
+    <img src="./pictures/yewan.png" alt="Night" width="200" height="200"/><br/>
     <span>Night</span>
   </div>
   <div style="display:inline-block; margin:10px;">
-    <img src="./pictures/yutian .png" alt="Rainy Day" width="300" height="200"/><br/>
+    <img src="./pictures/yutian .png" alt="Rainy Day" width="200" height="200"/><br/>
     <span>Rainy Day</span>
   </div>
   <div style="display:inline-block; margin:10px;">
-    <img src="./pictures/xuetian .png" alt="Snow Day" width="300" height="200"/><br/>
+    <img src="./pictures/xuetian .png" alt="Snow Day" width="200" height="200"/><br/>
     <span>Snow Day</span>
   </div>
 </div>

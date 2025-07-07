@@ -181,19 +181,13 @@ Update the your dataset path in the `./test_yaml/bdd-mtfenet-multi.yaml`.
 
 ### Training
 
-You can set the training configuration in the `./ultralytics/yolo/cfg/default.yaml`.
-
 ```
 python ./ultralytics/train.py
 ```
-
 ### Evaluation
 
 ```
 python ./ultralytics/val.py
-```
-You can change the setting in val.py
-
 ```
 ### Prediction
 

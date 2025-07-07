@@ -28,72 +28,18 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 
 
-|              |Traffic object detectionachievement||Drivable area segmentationachievement ||Laneline Segmentachievement     |
-|--------------|-----------------------------||-----------------------------||----------------|
-| Networks     |	mAP50 (%)   |	Recall (%)   |	mIoU (%)    |	Acc (%)      | IoU (%)        |
-|--------------|--------------|--------------|--------------|--------------|----------------|
-| Faster R-CNN | 81.20	      | 64.90	       | -            | -            | -              |
-| YOLOV5s      |	77.20       |	86.80        | -            |	-            | -              |
-| MultiNet     |	81.30       |	60.20        | 71.60        |	-	           | -              |
-| DLT-Net      |	**89.40**   |	68.40        | 72.10        |	-            | -              |
-| PSPNet       |	-           |	-            | 89.60        |	-            | -              |
-| ENet         |	-           |	-            | -            |	34.12        | 14.64          |
-| SCNN         |	-           |	-            | -            |	35.79        | 15.84          |
-| ENet-SAD     |	-           | -            | -            |	36.56        | 16.02          |
-| YOLOP        | 76.50        |	88.20        | 90.50        |	84.40        | 26.50          |
-| HybridNets   | 77.30        |	89.70        | 91.50        |	85.40        | 31.60          |
-| YOLOPv2      | 83.40        |	91.10        | 93.20        |	87.31        | 27.25          |
-| A-YOLOM      | 81.10        |	86.90        | 91.00        |	84.90        | 28.80          |
-| YOLOPv3      | 84.30        |	**96.90**    | 93.20        |	**88.30**    | 28.00          |
-| TriLiteNet   | 72.30        |	85.60        | 92.40        |	82.30        | 29.80          |
-| MTFENet      | 81.50        |	88.40        | **93.80**    |	87.60        | **33.70**      |
-
-<table style="width:100%; text-align:center; border-collapse:collapse;">
+<table style="width:80%; border-collapse:collapse; margin:auto;">
   <thead>
     <tr>
       <th rowspan="2" style="text-align:center;">Networks</th>
       <th colspan="2" style="text-align:center;">Traffic Object Detection Achievement</th>
-      <th colspan="1" style="text-align:center;">Drivable Area Segmentation Achievement</th>
+      <th colspan="1" style="text-align:center;">Drivable Area Segmentation<br>Achievement </th>
       <th colspan="2" style="text-align:center;">Laneline Segment Achievement</th>
     </tr>
     <tr>
       <th style="text-align:center;">mAP50 (%)</th>
       <th style="text-align:center;">Recall (%)</th>
-      <th style="text-align:center;">mIoU % (%)</th>
-      <th style="text-align:center;">Acc (%)</th>
-      <th style="text-align:center;">IoU (%)</th>
-    </tr>
-  </thead>
-  <tbody>
- <tr><td style="text-align:center;">Faster R-CNN</td><td>81.20</td><td>64.90</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td style="text-align:center;">YOLOV5s</td><td>77.20</td><td>86.80</td><td>-</td><td>-</td><td>-</td></tr>
-    <tr><td style="text-align:center;">MultiNet</td><td>81.30</td><td>60.20</td><td>71.60</td><td>-</td><td>-</td></tr>
-    <tr><td style="text-align:center;">DLT-Net</td><td><b>89.40</b></td><td>68.40</td><td>72.10</td><td>-</td><td>-</td></tr>
-    <tr><td style="text-align:center;">PSPNet</td><td>-</td><td>-</td><td>89.60</td><td>-</td><td>-</td></tr>
-    <tr><td style="text-align:center;">ENet</td><td>-</td><td>-</td><td>-</td><td>34.12</td><td>14.64</td></tr>
-    <tr><td style="text-align:center;">SCNN</td><td>-</td><td>-</td><td>-</td><td>35.79</td><td>15.84</td></tr>
-    <tr><td style="text-align:center;">ENet-SAD</td><td>-</td><td>-</td><td>-</td><td>36.56</td><td>16.02</td></tr>
-    <tr><td style="text-align:center;">YOLOP</td><td>76.50</td><td>88.20</td><td>90.50</td><td>84.40</td><td>26.50</td></tr>
-    <tr><td style="text-align:center;">HybridNets</td><td>77.30</td><td>89.70</td><td>91.50</td><td>85.40</td><td>31.60</td></tr>
-    <tr><td style="text-align:center;">YOLOPv2</td><td>83.40</td><td>91.10</td><td>93.20</td><td>87.31</td><td>27.25</td></tr>
-    <tr><td style="text-align:center;">A-YOLOM</td><td>81.10</td><td>86.90</td><td>91.00</td><td>84.90</td><td>28.80</td></tr>
-    <tr><td style="text-align:center;">YOLOPv3</td><td>84.30</td><td><b>96.90</b></td><td>93.20</td><td><b>88.30</b></td><td>28.00</td></tr>
-    <tr><td style="text-align:center;">TriLiteNet</td><td>72.30</td><td>85.60</td><td>92.40</td><td>82.30</td><td>29.80</td></tr>
-    <tr><td style="text-align:center;"><b>MTFENet</b></td><td>81.50</td><td>88.40</td><td><b>93.80</b></td><td>87.60</td><td><b>33.70</b></td></tr>
-  </tbody>
-</table>
-
-<table style="width:100%; border-collapse:collapse; margin:auto;">
-  <thead>
-    <tr>
-      <th rowspan="2" style="text-align:center;">Networks</th>
-      <th colspan="2" style="text-align:center;">Traffic Object Detection Achievement</th>
-      <th rowspan="2" style="text-align:center;">Drivable Area Segmentation<br>Achievement (mIoU %)</th>
-      <th colspan="2" style="text-align:center;">Laneline Segment Achievement</th>
-    </tr>
-    <tr>
-      <th style="text-align:center;">mAP50 (%)</th>
-      <th style="text-align:center;">Recall (%)</th>
+      <th style="text-align:center;">mIoU (%)</th>
       <th style="text-align:center;">Acc (%)</th>
       <th style="text-align:center;">IoU (%)</th>
     </tr>

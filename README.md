@@ -74,18 +74,28 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | MTFENet        | 87.60        | 33.70   |
  
 ---
-
 ### Visualization
-
-#### Real Road
-
-![Real Rold](pictures/road.jpg)
 
 #### video visualization Results
 * Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
 * The results of our experiments are as follows:
 <td><img src=pictures/1.gif/></td>
 ---
+#### Real Road
+<img src="pictures/road.jpg" alt="MTFENet" width="500" height="300"/>
+
+#### Visual Comparison of Results on a Sunny Day
+<img src="pictures/baitian.png" alt="MTFENet" width="500" height="300"/>
+
+#### Visual Comparison of Results at Night
+<img src="pictures/yewan.png" alt="MTFENet" width="500" height="300"/>
+
+#### Visual Comparison of Results on a Rainy Day
+<img src="pictures/yutian.png" alt="MTFENet" width="500" height="300"/>
+
+#### Visual Comparison of Results on a Snow Day
+<img src="pictures/xuetian.png" alt="MTFENet" width="500" height="300"/>
+
 
 ### Requirement
 We implemented the algorithm in a Linux environment and conducted all experiments on an NVIDIA RTX 4090 GPU equipped with 24GB of memory.

@@ -88,12 +88,12 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
   </tr>
   <tr>
     <td>
-      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="300" height="200"/><br/>
       <strong>Visual Comparison of Results on Rainy Day</strong>
+      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="300" height="200"/><br/>
     </td>
     <td>
-      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="300" height="200"/><br/>
       <strong>Visual Comparison of Results on Snow Day</strong>
+      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="300" height="200"/><br/>
     </td>
   </tr>
 </table>

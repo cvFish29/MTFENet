@@ -8,6 +8,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 ### The Illustration of MTFENet
 
 <img src="pictures/MTFENet.png" alt="MTFENet" width="500" height="300"/>
+
 ---
 
 ### Results
@@ -60,8 +61,8 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
   </tbody>
 </table>
 
-
 ---
+
 ### Visualization
 
 #### video visualization Results
@@ -141,7 +142,7 @@ python ./ultralytics/val.py
 python ./ultralytics/predict.py
 ```
 
-  
+---
 **Notes**: 
 We would like to express our sincere appreciation to the authors of the following works for their valuable contributions to the field of multi-task visual perception. Their research has provided strong foundations and meaningful benchmarks that have significantly guided and inspired our study. We also gratefully acknowledge the open-source code repositories they provided, which facilitated fair comparison and reproducibility in our experiments:
 

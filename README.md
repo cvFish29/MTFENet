@@ -80,8 +80,11 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 * Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
 * The results of our experiments are as follows:
 <td><img src=pictures/1.gif/></td>
+
 ---
+
 #### Real Road
+
 <img src="pictures/road.jpg" alt="MTFENet" width="500" height="300"/>
 
 #### Visual Comparison of Results on a Sunny Day

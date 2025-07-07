@@ -14,10 +14,6 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 
 ### Results
-#### video visualization Results
-* Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
-* The results of our experiments are as follows:
-<td><img src=pictures/1.gif/></td>
 
 #### Evaluation of Model Size and Inference Speed.
 | Networks       | Size (Pixel)| Parameters (M) | FPS(bs=32)  |
@@ -77,36 +73,18 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 | TriLiteNet     | 82.30        | 29.80   |
 | MTFENet        | 87.60        | 33.70   |
  
-
-#### Ablation Studies 1: Adaptive concatenation module:
-
-| Training method | Recall (%) | mAP50 (%) | mIoU (%) | Accuracy (%) | IoU (%) |
-|-----------------|------------|-----------|----------|--------------|---------|
-| YOLOM(n)        | 85.2       | 77.7      | 90.6     | 80.8         | 26.7    |
-| A-YOLOM(n)      | 85.3       | 78        | 90.5     | 81.3         | 28.2    |
-| YOLOM(s)        | 86.9       | 81.1      | 90.9     | 83.9         | 28.2    |
-| A-YOLOM(s)      | 86.9       | 81.1      | 91       | 84.9         | 28.8    |
-
-
-#### Ablation Studies 2: Results of different Multi-task model and segmentation structure:
-
-| Model          | Parameters | mIoU (%) | Accuracy (%) | IoU (%) |
-|----------------|------------|----------|--------------|---------|
-| YOLOv8(segda)  | 1004275    | 78.1     | -            | -       |
-| YOLOv8(segll)  | 1004275    | -        | 80.5         | 22.9    |
-| YOLOv8(multi)  | 2008550    | 84.2     | 81.7         | 24.3    |
-| YOLOM(n)       | 15880      | 90.6     | 80.8         | 26.7    |
-
-YOLOv8(multi) and YOLOM(n) only display two segmentation head parameters in total. They indeed have three heads, we ignore the detection head parameters because this is an ablation study for segmentation structure.
-
 ---
 
 ### Visualization
 
 #### Real Road
 
-![Real Rold](pictures/real-road.png)
+![Real Rold](pictures/road.jpg)
 
+#### video visualization Results
+* Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
+* The results of our experiments are as follows:
+<td><img src=pictures/1.gif/></td>
 ---
 
 ### Requirement

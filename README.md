@@ -137,15 +137,11 @@ We would like to express our sincere appreciation to the authors of the followin
 
 
 ### Requirement
-
-This codebase has been developed with [**Python==3.7.16**](https://www.python.org/) with [**PyTorch==1.13.1**](https://pytorch.org/get-started/locally/).
-
-You can use a 1080Ti GPU with 16 batch sizes. That will be fine. Only need more time to train. We recommend using a 4090 or more powerful GPU, which will be fast. 
-
-We strongly recommend you create a pure environment and follow our instructions to build yours. Otherwise, you may encounter some issues because the YOLOv8 has many mechanisms to detect your environment package automatically. Then it will change some variable values to further affect the code running. 
+We implemented the algorithm in a Linux environment and conducted all experiments on an NVIDIA RTX 4090 GPU equipped with 24GB of memory.
+The development environment was based on Python==3.8.19(https://www.python.org/) ,PyTorch 1.13.1(https://pytorch.org/get-started/locally/), conda 24.1.2, and CUDA11.7, with pre-training conducted on the BDD100K dataset. 
 
 ```setup
-cd YOLOv8-multi-task
+cd MTFENet
 pip install -e .
 ```
 

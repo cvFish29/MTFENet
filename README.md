@@ -70,14 +70,12 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 * The results of our experiments are as follows:
 <td><img src=pictures/1.gif/></td>
 
-#### Real Road
 
-<img src="pictures/road.jpg" alt="Real Road" width="500" height="300"/>
 <table style="width:100%; text-align:center;">
   <tr>
     <td>
       <strong>Real Road</strong><br/>
-      <img src="./pictures/road.jpg" alt="Visual Comparison of Results on Sunny Day" width="300" height="200"/>
+      <img src="./pictures/road.jpg" alt="Visual Comparison of Results on Sunny Day" width="400" height="300"/>
     </td>
   </tr>
 </table>
@@ -86,21 +84,21 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
   <tr>
     <td>
       <strong>Visual Comparison of Results on Sunny Day</strong>
-      <img src="./pictures/baitian.png" alt="Visual Comparison of Results on Sunny Day" width="300" height="200"/><br/>
+      <img src="./pictures/baitian.png" alt="Visual Comparison of Results on Sunny Day" width="400" height="300"/><br/>
     </td>
     <td>
       <strong>Visual Comparison of Results at Night</strong>
-      <img src="./pictures/yewan.png" alt="Visual Comparison of Results at Night" width="300" height="200"/><br/>
+      <img src="./pictures/yewan.png" alt="Visual Comparison of Results at Night" width="400" height="300"/><br/>
     </td>
   </tr>
   <tr>
     <td>
       <strong>Visual Comparison of Results on Rainy Day</strong>
-      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="300" height="200"/><br/>
+      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="400" height="300"/><br/>
     </td>
     <td>
       <strong>Visual Comparison of Results on Snow Day</strong>
-      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="300" height="200"/><br/>
+      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="400" height="300"/><br/>
     </td>
   </tr>
 </table>

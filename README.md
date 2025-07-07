@@ -116,9 +116,9 @@ pip install -e .
 ```
 ### Dataset
 - Download the images from [images](https://bdd-data.berkeley.edu/). 
-- Download the annotations of detection from [detection-object-9]((https://drive.google.com/file/d/1y5ypEDOtDICBrc2WLX0xMUGRlNamXLms/view?usp=sharing)). 
+- Download the annotations of detection from [detection-object-9](https://drive.google.com/file/d/1y5ypEDOtDICBrc2WLX0xMUGRlNamXLms/view?usp=sharing). 
 - Download the annotations of drivable area segmentation from [seg-drivable-10](https://drive.google.com/file/d/1D4BCWfmuslXDlJIULyJ8yeGGKw3zphfd/view?usp=sharing). 
-- Download the annotations of lane line segmentation from [seg-lane-11]((https://drive.google.com/file/d/1h9M6gWlKbd9QQ0KEuVdoTTo8G9LKmyGS/view?usp=sharing)). 
+- Download the annotations of lane line segmentation from [seg-lane-11](https://drive.google.com/file/d/1h9M6gWlKbd9QQ0KEuVdoTTo8G9LKmyGS/view?usp=sharing). 
 
 We recommend the dataset directory structure to be the following:
 

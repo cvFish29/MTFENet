@@ -21,6 +21,10 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 * Extensive experiments are conducted based on publicly accessible autonomous driving datasets, which demonstrate that our model can outperform existing works, particularly in terms of inference time and visualization. Moreover, we further conducted experiments using real road datasets, which also demonstrate that our model significantly outperformed the state-of-the-art approaches.
 
 ### Results
+#### video visualization Results
+* Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
+* The results of our experiments are as follows:
+<td><img src=demo/2.gif/></td>
 
 #### Evaluation of Model Size and Inference Speed.
 | Networks       | Size (Pixel)| Parameters (M) | FPS(bs=32)  |
@@ -122,7 +126,6 @@ We would like to express our sincere appreciation to the authors of the followin
 * **A-YOLOM** – [Paper](https://arxiv.org/pdf/2310.01641.pdf), [Code](https://github.com/JiayuanWang-JW/YOLOv8-multi-task)
 * **YOLOPv3** – [Paper](https://www.mdpi.com/2072-4292/16/10/1774), [Code](https://github.com/jiaoZ7688/YOLOPv3)
 * **TriLiteNet** – [Paper](https://ieeexplore.ieee.org/document/10930421), [Code](https://github.com/chequanghuy/TriLiteNet)
-
 
 
 ---

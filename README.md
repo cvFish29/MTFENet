@@ -5,13 +5,10 @@
 This repository(MTFENet) is the official PyTorch implementation of the paper "MTFENet: A Multi-Task Autonomous Driving Network for Real-Time Target Perception".  
 
 ---
-### Update:
-`2025-7-4`: We've uploaded the experiment results along with some code, and the full code will be released soon
-
 ### The Illustration of MTFENet
 
 <img src="pictures/MTFENet.png" alt="MTFENet" width="500" height="300"/>
-
+---
 
 ### Results
 
@@ -72,8 +69,6 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 * The results of our experiments are as follows:
 <td><img src=pictures/1.gif/></td>
 
----
-
 #### Real Road
 
 <img src="pictures/road.jpg" alt="Real Road" width="500" height="300"/>
@@ -90,6 +85,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 #### Visual Comparison of Results on a Snow Day
 <img src="./pictures/xuetian .png" alt="Snow Day" width="500" height="300"/>
 
+---
 
 ### Requirement
 We implemented the algorithm in a Linux environment and conducted all experiments on an NVIDIA RTX 4090 GPU equipped with 24GB of memory.

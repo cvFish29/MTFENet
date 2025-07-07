@@ -78,40 +78,26 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 <table style="width:100%; text-align:center;">
   <tr>
     <td>
-      <img src="./pictures/baitian.png" alt="Visual Comparison of Results on a Sunny Day" width="300" height="200"/><br/>
-      <strong>Sunny Day</strong>
+      <img src="./pictures/baitian.png" alt="Visual Comparison of Results on Sunny Day" width="300" height="200"/><br/>
+      <strong>Visual Comparison of Results on Sunny Day</strong>
     </td>
     <td>
       <img src="./pictures/yewan.png" alt="Visual Comparison of Results at Night" width="300" height="200"/><br/>
-      <strong>Night</strong>
+      <strong>Visual Comparison of Results at Night</strong>
     </td>
   </tr>
   <tr>
     <td>
-      <img src="./pictures/yutian.png" alt="Visual Comparison of Results on Rainy Day" width="300" height="200"/><br/>
-      <strong>Rainy Day</strong>
+      <img src="./pictures/yutian .png" alt="Visual Comparison of Results on Rainy Day" width="300" height="200"/><br/>
+      <strong>Visual Comparison of Results on Rainy Day</strong>
     </td>
     <td>
-      <img src="./pictures/xuetian.png" alt="Visual Comparison of Results on Snow Day" width="300" height="200"/><br/>
-      <strong>Snow Day</strong>
+      <img src="./pictures/xuetian .png" alt="Visual Comparison of Results on Snow Day" width="300" height="200"/><br/>
+      <strong>Visual Comparison of Results on Snow Day</strong>
     </td>
   </tr>
 </table>
 
-
-
-
-#### Visual Comparison of Results on a Sunny Day
-<img src="./pictures/baitian.png" alt="Sunny Day" width="500" height="300"/>
-
-#### Visual Comparison of Results at Night
-<img src="./pictures/yewan.png" alt="Night" width="500" height="300"/>
-
-#### Visual Comparison of Results on a Rainy Day
-<img src="./pictures/yutian .png" alt="Rainy Day" width="500" height="300"/>
-
-#### Visual Comparison of Results on a Snow Day
-<img src="./pictures/xuetian .png" alt="Snow Day" width="500" height="300"/>
 
 ---
 

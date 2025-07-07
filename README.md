@@ -4,7 +4,6 @@
 ## MTFENet: A Multi-Task Autonomous Driving Network for Real-Time Target Perception
 This repository(MTFENet) is the official PyTorch implementation of the paper "MTFENet: A Multi-Task Autonomous Driving Network for Real-Time Target Perception".  
 
-
 ---
 ### Update:
 `2025-7-4`: We've uploaded the experiment results along with some code, and the full code will be released soon
@@ -13,12 +12,6 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 
 ![MTFENet](pictures/constructure.jpg)
 
-### Contributions
-
-* We have developed a lightweight model capable of integrating three tasks into a single unified model. This is particularly beneficial for multi-task that demand real-time processing.
-* We have designed a novel Adaptive Concatenate Module specifically for the neck region of segmentation architectures. This module can adaptively concatenate features without manual design, further enhancing the model's generality.
-* We designed a lightweight, simple, and generic segmentation head. We have a unified loss function for the same type of task head, meaning we don't need to custom design for specific tasks. It is only built by a series of convolutional layers.
-* Extensive experiments are conducted based on publicly accessible autonomous driving datasets, which demonstrate that our model can outperform existing works, particularly in terms of inference time and visualization. Moreover, we further conducted experiments using real road datasets, which also demonstrate that our model significantly outperformed the state-of-the-art approaches.
 
 ### Results
 #### video visualization Results

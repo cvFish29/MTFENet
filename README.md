@@ -75,24 +75,27 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 <img src="pictures/road.jpg" alt="Real Road" width="500" height="300"/>
 
 
-<div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap;">
-  <div style="text-align:center;">
-    <img src="./pictures/baitian.png" alt="Sunny Day" width="300" height="200"/><br/>
-    <span>Sunny Day</span>
-  </div>
-  <div style="text-align:center;">
-    <img src="./pictures/yewan.png" alt="Night" width="300" height="200"/><br/>
-    <span>Night</span>
-  </div>
-  <div style="text-align:center;">
-    <img src="./pictures/yutian .png" alt="Rainy Day" width="300" height="200"/><br/>
-    <span>Rainy Day</span>
-  </div>
-  <div style="text-align:center;">
-    <img src="./pictures/xuetian .png" alt="Snow Day" width="300" height="200"/><br/>
-    <span>Snow Day</span>
-  </div>
-</div>
+<table style="width:100%; text-align:center;">
+  <tr>
+    <td>
+      <img src="./pictures/baitian.png" alt="Sunny Day" width="250" height="160"/><br/>
+      <strong>Sunny Day</strong>
+    </td>
+    <td>
+      <img src="./pictures/yewan.png" alt="Night" width="250" height="160"/><br/>
+      <strong>Night</strong>
+    </td>
+    <td>
+      <img src="./pictures/yutian .png" alt="Rainy Day" width="250" height="160"/><br/>
+      <strong>Rainy Day</strong>
+    </td>
+    <td>
+      <img src="./pictures/xuetian .png" alt="Snow Day" width="250" height="160"/><br/>
+      <strong>Snow Day</strong>
+    </td>
+  </tr>
+</table>
+
 
 
 #### Visual Comparison of Results on a Sunny Day

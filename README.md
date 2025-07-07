@@ -17,7 +17,7 @@ This repository(MTFENet) is the official PyTorch implementation of the paper "MT
 #### video visualization Results
 * Note: The raw video comes from [HybridNets](https://github.com/datvuthanh/HybridNets/tree/main/demo/video/)
 * The results of our experiments are as follows:
-<td><img src=demo/2.gif/></td>
+<td><img src=pictures/1.gif/></td>
 
 #### Evaluation of Model Size and Inference Speed.
 | Networks       | Size (Pixel)| Parameters (M) | FPS(bs=32)  |

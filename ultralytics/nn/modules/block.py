@@ -314,7 +314,7 @@ class BottleneckCSP(nn.Module):
         return self.cv4(self.act(self.bn(torch.cat((y1, y2), 1))))
 
 
-###################   ODconv ##################################
+
 def autopad(k, p=None, d=1):  # kernel, padding, dilation
     """Pad to 'same' shape outputs."""
     if d > 1:
@@ -482,9 +482,6 @@ class ODConv_3rd(nn.Module):
         return self.act(self.conv(x))
 
 
-#################           ODconv ##############################
-
-######################################## CSP-PTB(Partially Transformer Block) end ########################################
 def drop_path(x, drop_prob: float = 0., training: bool = False):
     """Drop paths (Stochastic Depth) per sample (when applied in main path of residual blocks).
     This is the same as the DropConnect impl I created for EfficientNet, etc networks, however,
@@ -651,10 +648,6 @@ class FTM(nn.Module):
         return self.cv2(torch.cat(y, 1))
 
 
-######################################## CSP-PTB(Partially Transformer Block) end ########################################
-
-
-######################################## DySample start ########################################
 
 class DySample(nn.Module):
     def __init__(self, in_channels, scale=2, style='lp', groups=4, dyscope=False):
@@ -732,4 +725,4 @@ class DySample(nn.Module):
             return self.forward_pl(x)
         return self.forward_lp(x)
 
-######################################## DySample end ########################################
+
